@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>캡션, 컬럼</title>
+<link rel="stylesheet" href="./css/23_tableStyle.css"/>
+</head>
+<body>
+
+
+<!--  
+	<caption> 태그는 표의 설명 또는 제목을 넣는다.
+	<caption> 태그는 하나의 표에 하나의 <caption>만 넣는다.
+	<caption> 태그를 넣는 위치는 일반적으로 <table> 태그 바로 아래에 넣지만 바로 아래가 아니라도 상관없다.
+	align 속성으로 caption이 표시되는 위치를 변경할 수 있다.
+-->
+
+<table id="table" border="1" align="center">
+	<caption align="top">데이터 타입과 값</caption>
+	<tr class="tr">
+		<th class="th" rowspan="2">데이터</th>
+		<td class="td">타입</td>
+		<td class="td">알파벳</td>
+		<td class="td">숫자</td>
+	</tr class="tr">
+	<tr>
+		<td class="td2">값</td>
+		<td class="td2">숫자</td>
+		<td class="td2">0</td>
+	</tr>
+</table>
+
+<table id="table" border="1" align="center">
+	<caption align="top">데이터 타입과 값</caption>
+	<tr>
+		<th rowspan="2">데이터</th>
+		<td>타입</td>
+		<td>알파벳</td>
+		<td>숫자</td>
+	</tr>
+	<tr>
+		<td>값</td>
+		<td>숫자</td>
+		<td>0</td>
+	</tr>
+
+</table>
+</body>
+</html>

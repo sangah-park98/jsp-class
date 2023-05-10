@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>요소 정렬 - 요소 쌓임 순서</title>
+<style type="text/css">
+
+	/*  
+		요소 쌓임 순서
+		요소들이 쌓여있는 순서를 통해서 어떤 요소가 사용자와 가깝게 있는지(더 위에 있는지)를 결정한다. => Z축
+		
+	*/
+	.box-group {
+		
+	}
+	
+	.box-group > .box {
+		width: 100px;
+		height: 100px;
+		background-color: pink;
+		border: 3px solid gray;
+	}	
+</style>
+</head>
+<body>
+<div class="box-group">
+	<div class="box">1</div>
+	<div class="box">2</div>
+	<div class="box">3</div>
+	<div class="box">4</div>
+	<div class="box">5</div>
+</div>
+</body>
+</html>

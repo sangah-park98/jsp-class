@@ -1,0 +1,20 @@
+header {
+	background-color: lightblue;
+	margin: 10px;
+	padding: 10px;
+}
+
+ul {
+	display: flex; 
+}
+
+li {
+	margin: 10px;
+	list-style: none; /* 검은 동그라미 없앨 때 */
+}
+
+footer {
+	background-color: lightblue;
+	margin: 10px;
+	padding: 10px;
+}

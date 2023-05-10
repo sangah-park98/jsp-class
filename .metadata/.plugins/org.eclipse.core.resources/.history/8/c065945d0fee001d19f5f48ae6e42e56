@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>박스 모델 - display</title>
+<style type="text/css">
+
+	/*  
+		display: 요소의 박스 타입을 설정한다.
+			block
+			inline
+			inline-block
+			none
+	*/
+</style>
+</head>
+<body>
+
+<span></span>
+<div></div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>트랜스폼 2D</title>
+<style type="text/css">
+
+	/*  
+		transform: 요소의 변형 효과를 지정한다.
+		
+		transform 2D 변환 함수
+			=> 
+	*/
+	
+	.box {
+		/* 초기 스타일 */
+		width: 200px;
+		height: 200px;
+		background-color: pink;
+		font-size: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 50px;
+		
+		/* 애니메이션 시작 위치 */
+		position: relative;
+		top: 0px;
+		left: 0px;
+		
+	}
+	
+	.box:hover {
+		/* 종료 스타일 */
+		background-color: gray;
+		/* 애니메이션 종료 위치 */
+		position: relative;
+		top: 100px;
+		left: 100px;
+	}
+
+</style>
+</head>
+<body>
+
+<div class="box">123</div>
+
+</body>
+</html>

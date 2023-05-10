@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>배경</title>
+<style type="text/css">
+	/*  
+		단축 속성
+		background: 배경색
+		
+		개별 속성
+		background-color: 배경색, transparent(투명)가 기본값
+		background-image: 배경 이미지, url("배경 이미지") 함수를 사용해서 배경 이미지를 넣는다.
+			=> none이 기본값
+		background-repeat:
+		background-position:
+	*/
+	.box1 {
+		width: 200px;
+		height: 100px;
+		/* background-color: pink; */ 
+		background: yellowgreen;
+	}
+	
+	.box2 {
+		width: 96px;
+		height: 96px;
+		background-color: pink; 
+		background-image: url("./images/java.png"); 
+	}
+</style>
+</head>
+<body>
+
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+<div class="box4"></div>
+
+</body>
+</html>

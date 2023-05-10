@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>박스 모델 - display</title>
+<style type="text/css">
+
+
+</style>
+</head>
+<body>
+
+<span></span>
+<div></div>
+</body>
+</html>

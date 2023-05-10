@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>애니메이션 - 이름, 재생시간</title>
+<style type="text/css">
+
+	/*  
+		animation-name: @keyframes로 만드는 애니메이션 규칙의 이름을 지정한다. none이 기본값
+		animation-duration: 애니메이션 지속 시간을 설정한다. 0s가 기본값
+	*/
+	.box {
+		width: 100px;
+		height: 100px;
+		background-color: pink;
+		border-radius: 10px;
+	}
+
+	.box:hover {
+		animation: first-animation 2s infinite alternate;
+	}
+	
+</style>
+</head>
+<body>
+
+</body>
+</html>

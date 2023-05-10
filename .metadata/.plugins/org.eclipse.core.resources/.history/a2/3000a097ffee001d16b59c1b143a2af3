@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>트랜스폼 변환 속성</title>
+<style type="text/css">
+	/*  
+		트랜스폼 변환 속성
+		
+		backface-visibility: 3D 변환으로 회전되는 요소의 뒷면 숨김을 설정한다. 
+			=> visible: 기본값, 뒷면을 보여준다.
+			=> hidden: 뒷면을 숨긴다.
+		transform-origin: 요소 변환의 기준점을 설정한다.
+			=> x축: 50%가 기본값, left, center, right
+			=> y축: 50%가 기본값, top, center, bottom
+			=> x축 y축 순서로 지정해야 하고 z축을 지정하면 효과가 적용되지 않는다.
+	 
+	*/
+	
+	img {
+		width: 200px;
+		border: 2px solid black;
+		margin: 100px;
+		transition-duration: 2s;
+		
+		backface-visibility: hidden;
+		transform-origin: right bottom;
+	}
+	
+	img:hover {
+		
+		/* transform: rotateX(180deg); */
+		/* transform: rotateY(180deg); */
+		transform: rotateZ(180deg);
+		
+	}
+	
+	.perspective {
+		width: 300px;
+		padding: 70px;
+	}
+	
+	.grand-parent {
+		width: 300px;
+		border: 3px solid green;
+	} 
+	.parent {
+		width: 300px;
+		border: 3px solid pink;
+		
+	}
+</style>
+</head>
+<body>
+<img alt="안드로이드" src="./images/android.png"/>
+
+<div class="perspective">
+	<div class="grand-parent">
+		<div class="parent">
+			<img class="child" alt="자바" src="./images/java.png"/>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

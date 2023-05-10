@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>트랜지션 - 전환 효과</title>
+<style type="text/css">
+
+	/*  
+		transition: css 속성의 시작과 끝을 지정하여 애니메이션(전환) 효과를 낸다.
+		transition-duration: 애니메이션 효과의 지속 시간을 설정한다.
+			=> 0s이 기본값이고 애니메이션 효과 없음을 의미한다. => 바로 전환된다.
+			=> 애니메이션 효과 시간은 초 단위로 지정하려면 1초는 1s로 입력하고, 밀리초 단위로 지정하려면
+				1초는 1000ms로 입력한다. 
+	*/
+	.box {
+		width: 100px;
+		height: 100px;
+		background-color: pink;
+		margin: 50px;		
+		transition-duration: 3s; /* transition-duration: 1000ms과 같다. */
+	}
+	
+	.box:hover {
+		width: 300px;
+		background-color: lavender;
+		
+	}
+</style>
+</head>
+<body>
+
+<div class="box"></div>
+
+</body>
+</html>

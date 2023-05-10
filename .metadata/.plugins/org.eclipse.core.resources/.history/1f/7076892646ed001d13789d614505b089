@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div>
+	<ul>
+		<li>사과</li>
+		<li>딸기</li>
+		<li id="orange" class="orange">오렌지</li>
+	</ul>
+	<div>당근</div>
+	<p>토마토</p>
+	<span class="orange">멜론</span>
+</div>
+
+<ul>
+	<li>딸기</li>
+	<li>수박</li>
+	<li>오렌지</li>
+	<li>망고</li>
+	<li>사과</li>
+</ul>
+
+</body>
+</html>

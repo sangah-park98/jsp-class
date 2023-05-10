@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>textarea fieldset</title>
+</head>
+<body>
+
+<!--  
+	<textarea> 태그는 여러줄 텍스트 입력 컨트롤을 나타낸다.
+	rows: 줄의 개수
+	cols: 칸의 개수
+	style을 이용해 크기를 지정하면 rows, cols을 사용하지 않아도 된다.
+-->
+
+</body>
+</html>

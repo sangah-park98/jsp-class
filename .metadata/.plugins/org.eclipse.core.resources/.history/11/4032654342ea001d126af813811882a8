@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form</title>
+</head>
+<body>
+
+<!--  
+	<form> 태그는 입력된 정보를 제출(전송)하기 위한 대화형 컨트롤을 포함하는 문서 구역을 만든다.
+	웹 서버에 정보를 제출하기 위한 양식의 범위를 지정한다.
+	<form>이 다른 <form>을 자식 요소로 가질 수 없다. 즉, <form>에 다른 <form>이 포함되면 안된다.
+	action 속성은 submit 버튼이 클릭되면 폼에 입력된 정보를 전송받아 처리할 페이지의 주소를 적는다.
+	method
+-->
+
+
+</body>
+</html>

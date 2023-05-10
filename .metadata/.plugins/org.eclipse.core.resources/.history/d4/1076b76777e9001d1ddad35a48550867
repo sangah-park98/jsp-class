@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>하이퍼링크</title>
+
+<style type="text/css">
+
+	a {
+		color: black;
+		text-decoration: none;
+	}
+
+</style>
+</head>
+<body>
+
+
+<!--  
+	<a> 태그는 href 속성을 통해 다른 페이지나 같은 페이지의 특정 위치(책갈피, 북마크)로 연결하는 하이퍼링크를
+	만든다.
+-->
+
+<a href="https://www.google.com/">google</a>
+
+</body>
+</html>

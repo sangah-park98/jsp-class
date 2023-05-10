@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>input 태그</title>
+</head>
+<body>
+	
+<!--  
+	<input> 태그는 사용자에게 데이터를 입력받는 양식을 만든다.
+	type 속성으로 입력 양식 종류를 결정한다.
+		button: 일반 버튼
+		checkbox: 체크 박스
+		color: 색상표, IE 사용 불가능
+		email: 이메일
+		file: 파일 선택
+		hidden: 보이지 않는 양식, value 속성으로 값을 지정한다.
+		image: 이미지 제출(전송) 버튼
+		number: 숫자
+		password: 비밀번호
+		radio: 라디오 버튼
+		range: 범위
+		reset: 초기화, 해당폼에 입력된 모든 정보 삭제
+		search: 검색
+		submit: 전송 버튼
+		tel: 전화번호
+		text: 일반 텍스트, 기본값
+		url: 절대 url
+-->	
+
+<form action="?" method="get" novalidate="novalidate">
+	<!--
+	 name 속성으로 양식의 이름을 지정한다. 입력한 데이터가 name 속성에 저장돼서 action 페이지로 전송된다.
+	 autofocus="autofocus" 속성을 지정하면 페이지가 로드될 때 자동으로 포커스(커서)가 위치한다.
+	 autofocus="autofocus" 속성은 문서 내에서 고유해야 한다.
+	 -->
+	이메일: <input type="email" name="email" autofocus="autofocus"/><br>
+	<!-- type="password"는 키보드로 한글을 입력할 수 없다. -->
+	비밀번호: <input type="password" name="password"><br>
+	<!-- 
+		value 속성으로 양식의 초기값을 지정한다.
+		readonly="readonly" 속성으로 양식을 읽기 전용으로 지정한다. 수정 불가능
+	-->
+	나이: <input type="number" name="age" value="0" readonly="readonly"/><br>
+	<input type="submit" value="로그인">
+	<input type="reset" value="다시쓰기">
+
+</form>	
+</body>
+</html>

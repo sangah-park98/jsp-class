@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>iframe</title>
+</head>
+<body>
+
+<!--  
+	<iframe> 태그는 현재 html 문서 안에 다른 html 문서를 삽입한다. 중첩 브라우징
+	
+-->
+
+<p>여기는 현재 페이지</p>
+
+<div>
+	<img alt="점보트론 이미지" src="./images/posterBackground.jpg" width="500"/>
+</div>
+</body>
+</html>

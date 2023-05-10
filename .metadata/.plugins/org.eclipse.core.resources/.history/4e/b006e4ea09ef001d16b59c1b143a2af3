@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>애니메이션 - 타이밍함수, 지연</title>
+</head>
+<body>
+<div class="box box1"></div>
+<div class="box box2"></div>
+<div class="box box3"></div>
+
+</body>
+</html>

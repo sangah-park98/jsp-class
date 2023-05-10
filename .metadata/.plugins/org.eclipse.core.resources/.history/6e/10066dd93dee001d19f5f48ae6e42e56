@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>요소 정렬 - position</title>
+<style type="text/css">
+	/*  
+		위치상의 부모란 DOM(Document Object Model) 구조에 따른 부모를 의미하는 것이 아니라 position 속성의
+		유, 무에 따라서 구분된다.
+		position 속성을 사용하지 않았거나 사용했더라도 속성값이 static인 경우 위치상의 부모로 인정되지 않는다.
+		
+		position: 요소의 위치 지정 방법의 기준을 설정한다.
+			static => 기본값, 위치 기준 없음 => 배치 불가능
+			relative => 요소 자신의 위치를 기준으로 삼는다. => 주변에 영향을 주거나 영향을 받는다.
+			absolute => 요소 자신이 아닌 위치상의 부모 요소를 기준으로 삼는다.
+			fixed => 브라우저를 기준으로 삼는다.
+			
+		position과 같이 사용하는 속성 => static일 경우에는 무시된다.
+	*/
+
+</style>
+</head>
+<body>
+
+</body>
+</html>

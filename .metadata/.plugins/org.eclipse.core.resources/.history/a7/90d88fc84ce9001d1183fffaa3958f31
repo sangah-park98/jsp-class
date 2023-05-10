@@ -1,0 +1,12 @@
+<!-- html5 버전으로 해석해서 브라우저에 표시한다. -->
+<!DOCTYPE html> <!-- 문서 타입을 명시한다. -->
+<html>
+<head>
+<!-- 조합형: UTF-8, 완성형: EUC-KR, MS949, CP949 -->
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

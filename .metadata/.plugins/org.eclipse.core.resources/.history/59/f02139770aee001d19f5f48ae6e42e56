@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>박스 모델 - 외곽선</title>
+<style type="text/css">
+
+	/*  
+		border: 요소의 테두리 선을 설정한다.
+		border 선두께 선종류 선색상 => 단축 속성, 선 색상을 생략하면 글자색에 따른다.
+	
+		
+		
+		border-width: 선의 두께(너비), thin(얇은), medium(중간, 기본값), thick(두꺼운)
+		padding => 단축 속성, 여러 개별 속성을 한꺼번에 지정할 수 있다.
+		padding 위쪽 오른쪽 아래쪽 왼쪽 => 시계 방향
+		padding 위쪽 [왼쪽 오른쪽] 아래쪽
+		padding [위쪽 아래쪽] [왼쪽 오른쪽]
+		padding [위쪽 아래쪽 왼쪽 오른쪽]
+		
+		
+		border-botom-width: 
+		border-left-width:
+		border-right-width:
+		border-top-width:
+	*/
+	
+	.box {
+		border-width: medium;
+	}
+	
+</style>
+</head>
+<body>
+
+</body>
+</html>

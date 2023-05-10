@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>가상 클래스 선택자</title>
+<style type="text/css">
+
+	/* ":"이 가상 클래스 선택자이다. */
+	/* hover: 선택자에 마우스 포인터가 올라가 있는 동안에만 선택된다. */
+	a:hover {
+		color: lime;
+		font-weight: bold;
+		font-size: 20pt;
+		font-family: SB 어그로;
+	}
+	
+	.box1 {
+		width: 100px;
+		height: 100px;
+		background-color: lavender;
+	}
+	.box1:hover {
+		width: 200px;
+	}
+</style>
+</head>
+<body>
+
+<a href="https://www.naver.com">NAVER</a>
+<div class="box1"></div>
+</body>
+</html>

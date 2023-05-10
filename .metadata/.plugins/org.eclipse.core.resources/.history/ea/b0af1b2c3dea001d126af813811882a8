@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>thead tbody tfoot</title>
+</head>
+<body>
+
+<table>
+	<caption>Fruits</caption>
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>박스 모델 - box sizing</title>
+<style type="text/css">
+
+	/*  
+		box-sizing: 요소의 크기 계산 기준을 정한다.
+	*/
+	
+	.box1 {
+		width: 200px;
+		height: 200px;
+		background-color: pink;
+		border: 10px solid black;
+	}
+	.box2 {
+		width: 200px;
+		height: 200px;
+		background-color: lavender;
+		border: 10px solid black;
+	}
+</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+</body>
+</html>

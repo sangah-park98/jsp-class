@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>abbr b i mark dfn cite q</title>
+</head>
+<body>
+	
+<!--  
+	<abbr> 태그는 줄임말 또는 머리 글자에 마우스를 올리면 풍선 도움말을 나타낸다.
+	title 속성에 마우스를 올렸을 때 표시할 설명을 지정한다.
+-->
+	
+Using <abbr title="HyperText Markup Language">HTML</abbr> is fun and easy!	
+
+<!--  
+	<b> 태그는 독자의 주의를 끄는 요소로 활용된다. 굵게
+	<i> 태그는 이태릭체(기울임꼴)
+-->
+
+</body>
+</html>

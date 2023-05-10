@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>script</title>
+<!-- 10:45
+<script type="text/javascript">
+//	id 속성이 my-name으로 지정된 div 태그가 브라우저에 랜더링(표시)되기 전이므로 얻어올 수 없다.
+	const myName = document.getElementById('my-name'); /* name에 <div> 태그 전체가 들어가므로 innerText로 글자만 얻어온다. */
+	console.log(myName); // null
+	console.log(myName.innerText); // 에러
+</script>
+-->
+</head>
+<body>
+
+<div id="my-name">
+	♥내 사이트♥
+</div>
+
+<script type="text/javascript">
+//	id 속성이 my-name으로 지정된 div 태그가 브라우저에 랜더링(표시)된 이후이므로 얻어올 수 있다.
+	const myName = document.getElementById('my-name'); 
+	console.log(myName); //<div id="my-name">♥내 사이트♥</div>
+	console.log(myName.innerText); // ♥내 사이트♥
+	myName.innerText = '<h1>내 사이트야!<h1>';
+</script>
+
+</body>
+</html>

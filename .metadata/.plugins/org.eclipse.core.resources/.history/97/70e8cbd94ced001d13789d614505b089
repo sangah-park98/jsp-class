@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>가상 클래스 선택자</title>
+<style type="text/css">
+
+	/* ":"이 가상 클래스 선택자이다. */
+	/* hover: 선택자에 마우스 포인터가 올라가 있는 동안에만 선택된다. */
+	a:hover {
+		color: lime;
+		font-weight: bold;
+		font-size: 20pt;
+		font-family: SB 어그로;
+	}
+	.box1 {
+		width: 100px;
+		height: 100px;
+		background-color: lavender;
+	}
+	.box1:hover {
+		width: 200px;
+		background-color: pink;
+		transition-duration: 2s; /* 애니메이션 실행시간, 단위는 초 뒤에 "s"를 붙인다. */
+	}
+	.box2 {
+		width: 100px;
+		height: 100px;
+		background-color: lightblue;
+	}
+	
+	/* active: 선택자를 마우스로 누르고 있는 동안에만 선택된다. */
+	.box2:active {
+		width: 200px;
+		background-color: grey;
+		transition-duration: 2s; 
+	}
+	
+	
+</style>
+</head>
+<body>
+
+<a href="https://www.naver.com">NAVER</a>
+<div class="box1"></div>
+<div class="box2"></div>
+</body>
+</html>

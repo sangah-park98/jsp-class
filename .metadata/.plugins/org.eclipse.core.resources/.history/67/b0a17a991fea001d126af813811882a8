@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>script</title>
+
+<script type="text/javascript">
+	const myName = document.getElementById('my-name');
+	console.log(myName);
+	console.log(myName.innerText);
+</script>
+
+</head>
+<body>
+
+<div id="my-name">
+	♥내 사이트♥
+</div>
+
+</body>
+</html>

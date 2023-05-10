@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>가상 요소 선택자</title>
+
+<style type="text/css">
+	/*  
+		가상 클래스 선택자는 ":"으로 선택하고 가상 요소 선택자는 "::"으로 선택한다.
+	*/
+
+</style>
+
+</head>
+<body>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>thead tbody tfoot</title>
+</head>
+<body>
+
+<table>
+	<caption>Fruits</caption>
+	<colgroup>
+		<col span="2" style="background-color: lightblue">
+		<col style="background-color: pink">
+	</colgroup>
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>abbr b i mark dfn cite q</title>
+</head>
+<body>
+	
+<!--  
+	<abbr> 태그는 줄임말 또는 머리 글자에 마우스를 올리면 풍선 도움말을 나타낸다.
+-->
+	
+Using HTML is fun and easy!	
+																	
+</body>
+</html>

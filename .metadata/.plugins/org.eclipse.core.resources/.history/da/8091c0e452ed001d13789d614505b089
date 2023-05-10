@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>가상 클래스 선택자</title>
+<style type="text/css">
+
+	/* 
+		nth-child: 형제 요소 중 index가 n번째 요소라면 선택한다. 
+		index는 nth-child(index)와 같이 지정하며 1부터 시작된다.
+	*/ 
+	
+	.fruits1 > li:nth-child(2) {
+		color: red;
+	}
+
+	
+	 /*
+		연산
+		()안에 "n"을 입력하면 "n"은 0부터 시작해서 1씩 증가된다.
+	 */
+	.fruits2 > li:nth-child(n) {
+		color: blue;
+	}
+
+</style>
+</head>
+<body>
+
+
+<ul class="fruits1">
+	<li>딸기</li>
+	<li>수박</li> <!-- nth-child(2) -->
+	<li>오렌지</li>
+	<li>망고</li>
+	<li>사과</li> 
+</ul>
+<hr/>
+<ul class="fruits2">
+	<li>딸기</li>
+	<li>수박</li>
+	<li>오렌지</li>
+	<li>망고</li>
+	<li>사과</li> 
+</ul>
+
+
+
+</body>
+</html>

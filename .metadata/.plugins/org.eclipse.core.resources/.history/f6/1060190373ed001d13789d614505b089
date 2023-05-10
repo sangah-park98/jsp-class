@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>단위</title>
+<style type="text/css">
+	/* 
+		vw(viewport width): viewport의 가로 너비
+		vh(viewport height):  
+	 */
+</style>
+
+</head>
+<body>
+
+<div class="container1"></div>
+<div class="container2"></div>
+
+</body>
+</html>
