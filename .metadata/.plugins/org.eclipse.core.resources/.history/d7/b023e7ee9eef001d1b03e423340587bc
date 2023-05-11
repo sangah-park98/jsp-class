@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flex 컨테이너 속성 - display</title>
+<style type="text/css">
+
+	/*  
+		display: flex 컨테이너를 정의한다.
+	*/
+
+</style>
+</head>
+<body>
+
+<div class="container1">
+	<div class="item1">1</div>
+	<div class="item1">2</div>
+	<div class="item1">3</div>
+</div><br/>
+
+</body>
+</html>

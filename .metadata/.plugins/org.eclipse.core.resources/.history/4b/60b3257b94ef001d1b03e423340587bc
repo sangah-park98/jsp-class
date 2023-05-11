@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>애니메이션 속성</title>
+<style type="text/css">
+
+	/*  
+		animation-play-state: 애니메이션의 재생과 정지를 설정한다. running이 기본값
+			=> running: 기본값, 애니메이션을 동작시킨다.
+			=> paused: 애니메이션을 일시적으로 중지시킨다.
+			
+	*/
+	.box {
+		width: 100px;
+		height: 100px;
+		background-color: pink;
+		border-radius: 10px;
+		margin: 20px;
+		font-size: 20pt;
+		font-weight:bold;
+		color: white;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		 
+		animation-name: fill;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: both;
+ 		/* animation: fill 1s linear 0s 1 normal both; /* 단축 속성 */ 
+ 	}
+ 	
+ 	.box::before {
+ 		content: "running";
+ 	}
+ 	
+
+</style>
+</head>
+<body>
+
+<div class="box"></div>
+
+</body>
+</html>

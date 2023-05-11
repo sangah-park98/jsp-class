@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flex 아이템 속성 - 아이템 정렬</title>
+<style type="text/css">
+
+	/*  
+		align-self: 교차축에서 아이템 정렬 방식을 지정한다.
+		flex 컨테이너 속성 중에 align-items는 컨테이너 내부의 모든 아이템을 일괄적으로 정렬 방식을 설정했다.
+		모든 아이템을 일괄적으로 정렬하지 않고 일부 아이템만 정렬 방식을 변경해야 할 때 align-self를 사용한다.
+	*/
+</style>
+</head>
+<body>
+
+</body>
+</html>
