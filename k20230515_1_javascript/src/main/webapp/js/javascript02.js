@@ -76,6 +76,51 @@ console.log(`value: ${nan}, type: ${typeof nan}`);
 console.log('---------------------------------');
 
 
+//	동적 자료형(dynamic typing): 변수에 저장되는 데이터의 타입에 맞춰 변수의 타입이 결정된다.
+let text = 'hello';
+console.log(`value: ${text}, type: ${typeof text}`);
+text = 1;
+console.log(`value: ${text}, type: ${typeof text}`);
+console.log('---------------------------------');
+
+//	symbol: 고유한 식별자를 만들 때 사용한다.
+const symbol = Symbol('id');
+console.log(symbol);
+console.log(`type: ${typeof symbol}`);
+
+const symbol2 = Symbol('id');
+console.log(symbol2);
+console.log(`type: ${typeof symbol2}`);
+console.log(symbol==symbol2);
+console.log('---------------------------------');
+
+//	object(객체)
+const obj = {
+	name: '홍길동',
+	age: 20
+}
+console.log(obj);
+console.log(obj.age);
+console.log(obj.name);
+obj.age = 21;
+console.log(obj);
+console.log(obj.age);
+console.log(typeof obj)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
