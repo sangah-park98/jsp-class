@@ -31,3 +31,42 @@ console.log(name);
 
 const name2 = getName();
 console.log(name2);
+console.log('---------------------------------');
+
+//	'||' 논리 연산에서 앞의 조건이 truthy한 값이면 '||' 뒤의 내용은 볼 필요가 없으므로 truthy한 값이
+//	출력된다. 
+console.log(true || 'hello');
+console.log('abc' || 'hello');
+//	'||' 논리 연산에서 앞의 조건이 falsy한 값이면 '||' 뒤의 내용이 출력된다.
+console.log(false || 'hello');
+console.log('---------------------------------');
+
+const cat = {
+	name: '야옹이'
+};
+
+function getName2(animal) {
+	console.log(animal);
+	const name = animal || animal.name;
+	if(name) {
+		return name.name;
+	} else {
+		return '누구야..?';
+	}
+}
+
+const name3 = getName2(cat);
+console.log(name3);
+//	const name4 = getName2(); // 에러 발생
+//	console.log(name4);
+
+
+
+
+
+
+
+
+
+
+

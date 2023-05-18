@@ -82,7 +82,7 @@ Animal4.prototype.say = function() {
 //	Animal4(부모) 클래스를 상속받는 Dog(자식) 클래스를 정의한다.
 function Dog(name, sound) {
 //	부모 클래스를 호출해서 자식 클래스를 초기화할 데이터를 전달한다.
-	Animal4.call(this, '개', name, sound);
+	Animal4.call(this, '개', name, sound);// 항상 앞은 this로 시작
 }
 //	부모 클래스의 prototype을 자식 클래스의 prototype에 넣어준다 => 상속시킨다.
 //	자식 클래스를 선언하고 자식 클래스의 객체를 생성하기 전에 실행한다.
@@ -91,7 +91,7 @@ Dog.prototype = Animal4.prototype;
 //	Animal4(부모) 클래스를 상속받는 Cat(자식) 클래스를 정의한다.
 function Cat(name, sound) {
 //	부모 클래스를 호출해서 자식 클래스를 초기화할 데이터를 전달한다.
-	Animal4.call(this, '고양이', name, sound);
+	Animal4.call(this, '고양이', name, sound); 
 }
 Cat.prototype = Animal4.prototype;
 
