@@ -1,0 +1,6 @@
+function searchID() {
+	let doc = document.getElementById('test');
+	doc.innerHTML = 'getElementById() 함수는 DOM에서 id 속성을 탐색한다.';
+	doc.style.backgroundColor = 'lavender';
+	
+}

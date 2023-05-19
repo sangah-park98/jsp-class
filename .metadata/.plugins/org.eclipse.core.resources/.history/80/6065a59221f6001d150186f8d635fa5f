@@ -1,0 +1,7 @@
+function evalTest() {
+	let str = document.getElementsByName('evalValue')[0];
+	
+	console.log(str);
+	console.log(str).value;
+	console.log(typeof str.value);
+}

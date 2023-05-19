@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript 개요</title>
+<script type="text/javascript" src="./js/javascript01.js" async></script>
+
+<!--  
+	자바스크립트를 웹 문서(html, jsp)에 포함시키는 방법
+	
+	1. <head> ~ </head> 사이에 삽입하는 경우
+	<head>
+		...
+		<script type="text/javascript" src="./js/javascript01.js"></script>
+		...
+	</head>
+	
+	parsing html => fetching js => executing js => parsing html
+	
+	무거운 스크립트일수록 브라우저에 랜더링이 더 지연되어 사용자에게 완성되지 않은 화면을 오래 노출할 수 있다.
+	DOM(Document Object Model, html 문서 구조) 구조가 필요한 스크립트일 경우 아직 랜더링되지 않은 DOM 요소가
+	있을 경우 오류가 발생될 수 있다.
+	
+	2. <body> 앞에 삽입하는 경우
+	<body>
+		...
+		<script type="text/javascript" src="./js/javascript01.js"></script>
+	</body> 
+	parsing html => fetching js => executing js
+	
+	브라우저에 랜더링이 완료된 상태에서 스크립트가 실행된다.
+	대부분 스크립트의 위치로 추천되는 위치
+	스크립트에서 DOM 요소에 접근해도 오류가 발생되지 않는다.
+	
+	3. async
+	<head>
+		...
+		<script type="text/javascript" src="./js/javascript01.js" async></script>
+		<script type="text/javascript" src="./js/javascript01.js" async></script>
+		<script type="text/javascript" src="./js/javascript01.js" async></script>
+		...
+	</head>
+
+	4. defer
+	<head>
+		...
+		<script type="text/javascript" src="./js/javascript01.js" defer></script>
+		<script type="text/javascript" src="./js/javascript01.js" defer></script>
+		<script type="text/javascript" src="./js/javascript01.js" defer></script>
+		...
+	</head>
+	
+	
+-->
+</head>
+<body>
+
+</body>
+</html>

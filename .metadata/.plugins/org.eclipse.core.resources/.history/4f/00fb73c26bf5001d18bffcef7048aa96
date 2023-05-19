@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript 윈도우</title>
+<script type="text/javascript" src="./js/javascript19_1.js"></script>
+
+	
+
+</head>
+<body>
+
+<h1>팝업창 만들기 - 새창</h1>
+<input id="parentID" type="text"/>
+<input type="button" value="아이디 중복 검사" onclick="openwin()">
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

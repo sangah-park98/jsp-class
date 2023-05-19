@@ -1,0 +1,6 @@
+function numTest(num) {
+	console.log(num);
+	console.log(typeof num); // text 상자 안에 있는 건 무조건 문자열을 반환한다. string
+	console.log('123' + num); // 문자열 + 문자열 => 문자열 연결 
+	
+}

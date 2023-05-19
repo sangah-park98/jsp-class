@@ -1,0 +1,3 @@
+function numTest(num) {
+	console.log(num);
+}

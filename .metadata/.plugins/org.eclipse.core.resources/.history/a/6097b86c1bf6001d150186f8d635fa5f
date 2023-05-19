@@ -1,0 +1,5 @@
+function numTest(num) {
+	console.log(num);
+	console.log(typeof num);
+	
+}

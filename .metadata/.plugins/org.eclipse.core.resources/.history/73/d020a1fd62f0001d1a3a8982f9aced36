@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>grid 아이템 속성 - 영역 이름 참조</title>
+<style type="text/css">
+	
+	
+	/*  
+		grid-template-areas: grid-area 속성으로 지정한 영역 이름을 참조해서 grid 템플릿을 생성한다.
+		
+		
+	*/	
+	
+	.container {
+		width: 600px;
+		grid-template-rows: repeat(3, 100px);
+		grid-template-columns: repeat(3, 1fr);
+		border: 3px solid black;
+		display: grid;
+		
+		/* 각 아이템 요소마다 grid-area 속성으로 영역을 지정하고 grid-template-areas로 렌더링 한다. */
+	}
+	.container > .item {
+		border: 3px dashed pink;
+	}
+	.container > .item:nth-child(1) {
+		grid-area: header; /* 영역 이름 설정 */
+	}
+	.container > .item:nth-child(2) {
+		grid-area: main; 
+	}
+	.container > .item:nth-child(3) {
+		grid-area: aside; 
+	}
+	.container > .item:nth-child(4) {
+		grid-area: footer; 
+	}
+
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="item">Header</div>
+	<div class="item">Main</div>
+	<div class="item">Aside</div>
+	<div class="item">Footer</div>
+</div>
+</body>
+</html>

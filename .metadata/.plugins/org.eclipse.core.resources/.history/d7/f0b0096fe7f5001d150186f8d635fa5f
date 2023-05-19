@@ -1,0 +1,12 @@
+#register {
+	border: 2px solid blue;
+	background-color: tomato;
+	padding: 10px;
+	position: absolute;
+	top: 200px;
+	
+}
+
+
+
+

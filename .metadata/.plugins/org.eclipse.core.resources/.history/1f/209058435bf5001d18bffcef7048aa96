@@ -1,0 +1,6 @@
+function requestID() {
+//	alert('온로드');
+//	opener는 현재 창을 띄운 부모창을 의미한다. 19번창
+	let parentID = opener.document.getElementByID('parentID');
+	console.log(parentID);
+}

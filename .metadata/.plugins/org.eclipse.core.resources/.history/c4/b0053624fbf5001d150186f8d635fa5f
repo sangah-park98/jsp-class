@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript DOM 선택함수</title>
+<script type="text/javascript" src="./js/javascript22.js"></script>
+</head>
+<body>
+
+<p id="test" class="test">
+	1. getElementById(): 인수로 지정된 id 속성의 첫번째 요소 1개를 선택한다.<br/>&nbsp;&nbsp;
+	   같은 화면에 같은 id 요소가 여러개 있다면 첫번째 요소 1개만 선택된다.
+</p>
+<p id="test" class="test">
+	2. getElementsByName():
+	
+</p>
+<p id="test" class="test">
+	3. getElementsByTagName():
+	
+</p>
+<p id="test" class="test">
+	4. getElementsByclassName():
+
+</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

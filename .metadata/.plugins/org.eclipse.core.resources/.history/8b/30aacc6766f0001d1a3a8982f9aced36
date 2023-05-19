@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>grid 아이템 속성 - 암시적 행, 열</title>
+<style type="text/css">
+
+	/*  
+		grid-template-rows와 grid-template-columns는 명시적 행과 열의 크기를 지정한다.
+		명시적 행과 열은 컨테이너 내부에 나타나는 행과 열을 의미한다.
+	*/
+</style>
+</head>
+<body>
+
+</body>
+</html>

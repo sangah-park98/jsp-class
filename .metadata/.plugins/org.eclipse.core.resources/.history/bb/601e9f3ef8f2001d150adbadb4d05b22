@@ -1,0 +1,42 @@
+// 변수(variable)
+// 변수가 var, let, const로 선언되지 않으면 에러를 발생시킨다.
+'use strict'; // ECMA Script5에서 추가
+
+// 변수의 타입
+// 기본(원시, primitive type) 자료형
+//		=> number(숫자), string(문자열), boolean(논리), null, undefined, symbol(ES6)
+// object(객체), box container
+// function(함수) => 함수도 변수에 할당이 가능하다.
+// 				  => 함수의 인수로 함수를 전달할 수 있고, 함수의 실행 결과로 함수를 리턴할 수 있다.
+//				  => 1급 함수
+
+// age = 19; // 'use strict';에 의해서 에러가 발생된다.
+// var age = 19;
+console.log('age: ' + age);
+
+
+//	var를 사용해서 선언한 변수는 프로그램 어디에서 선언하던지 변수 선언만(var age;) 항상 맨 위로 끌어올려진다.
+//  변수를 선언만 하고 값을 할당하지 않으면 undefined가 된다.
+
+var age = 100;
+// var name;
+// console.log('name: ' + name);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

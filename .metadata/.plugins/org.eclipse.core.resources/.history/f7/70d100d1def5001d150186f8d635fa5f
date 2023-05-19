@@ -1,0 +1,19 @@
+function requestID() {
+//	alert('온로드');
+//	opener는 현재 창을 띄운 부모창을 의미한다. 19번창
+//	부모창에서 자식창에 사용할 데이터를 얻어온다.
+	let parentID = opener.document.getElementById('parentID').value;
+	console.log(parentID);
+//	부모창에서 얻어온 데이터를 자식창의 객체에 넣어준다.
+	document.getElementById('childID').value = parentID;
+}
+
+function sendID1() {
+//	부모창으로 넘겨줄 자식창의 데이터를 가져온다.
+	document.getElementById('childID').value;
+
+//	부모창으로 데이터를 보낸다.
+	let parentID = opener.document.getElementById('parentID').value;
+	
+	
+}

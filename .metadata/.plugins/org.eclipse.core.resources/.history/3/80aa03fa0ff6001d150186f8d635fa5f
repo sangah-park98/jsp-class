@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript 객체</title>
+<script type="text/javascript" src="./js/javascript23.js"></script>
+</head>
+<body>
+
+<input type="button" value="객체 - function" onclick="objectFunction()"/>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

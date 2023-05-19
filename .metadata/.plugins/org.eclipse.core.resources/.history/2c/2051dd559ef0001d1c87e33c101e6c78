@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>부트스트랩 웹 페이지</title>
+<link rel="icon" href="./images/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 반응형 웹 -->
+<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+
+<style type="text/css">
+
+	.jumbotron {
+		background-image: url("./images/jumbotronBackground.jpg");
+		background-size: cover;
+		color: white;
+		text-shadow: 0.2em 0.2em 0.2em black; 
+	}
+</style>
+
+<!-- 부트스트랩의 내비게이션 바를 작동시키기 위해 jQuery와 bootstrap.js 파일을 연결한다. -->
+<!-- jQuery -->
+<script type="text/javascript" src="./js/bootstarp.js"></script>
+<!-- bootstrap.js -->
+<script type="text/javascript" src="./js/bootstarp.js"></script>
+</head>
+<body>
+
+
+<!--  
+	 내비게이션 바
+	 홈페이지의 전체적인 구성을 보여주는 역할을 하고 내비게이션을 통해서 다른 페이지로 이동하거나 사용자가
+	 원하는 기능을 찾아서 이동할 수 있게 한다.
+	 내비게이션 바는 일반적으로 html 소스 코드의 가장 위쪽에 위치하며 자바스크립트와 같이 사용한다.
+-->
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		
+		<!-- 내비게이션 헤더 -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+				data-target="#연결될 컴포넌트의 id" aria-expanded="false">
+				<!-- class="sr-only": 큰 화면에는 표시되지 않지만 검색 엔진에서는 이 클래스 내용을 읽는다. -->
+				<span class="sr-only"></span>
+				<!-- class="icon-bar": 버튼 내부에 표시할 줄의 개수만큼 지정한다. -->
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>			
+		</div>
+		<!-- 내비게이션 내용 -->
+		
+		
+	</div>
+
+</nav>
+
+
+<div class="container">
+	<div class="jumbotron">
+		<h1 class="text-center">날로 먹는 코딩 온라인 강좌 사이트</h1>
+		<p class="text-center">
+			날로 먹는 코딩은 IT 교육 사이트입니다. 다양한 날로 먹는 IT 관련 강의가 존재합니다.
+		</p>
+		<p class="text-center">
+			<a class="btn btn-primary btn-lg" href="#" role="button">강의 들으러 가기</a>
+		</p>
+</div>
+
+</div>
+</body>
+</html>

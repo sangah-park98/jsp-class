@@ -1,0 +1,32 @@
+// 변수(variable)
+// 변수가 var, let, const로 선언되지 않으면 에러를 발생시킨다.
+'use strict'; // ECMA Script5에서 추가
+// age = 19; // 'use strict';에 의해서 에러가 발생된다.
+var age = 19;
+console.log('age: ' + age);
+
+// 변수의 타입
+// 기본(원시, primitive type) 자료형
+//		=> number(숫자), string(문자열), boolean(논리), null, undefined, symbol(ES6)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

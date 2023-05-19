@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>grid 아이템 속성 - 수평, 수직 정렬</title>
+<style type="text/css">
+
+	/*  justify-items: 컨테이너 내부의 grid에서 아이템들을 수평으로 정렬한다.
+			=> start: 기본값, 컨테이너 시작점(왼쪽)에 맞춰 정렬한다.
+			=> center: 컨테이너 수평 가운데로 정렬한다.
+			=> end: 컨테이너 끝점(오른쪽)에 맞춰 정렬한다.
+	
+	*/
+</style>
+</head>
+<body>
+
+</body>
+</html>

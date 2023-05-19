@@ -1,0 +1,47 @@
+
+5월 12, 2023 09:54:36.240 NEW SESSION
+5월 12, 2023 09:54:36.240 [10844:12656:0512/095436.238:ERROR:interface_endpoint_client.cc(696)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 12, 2023 09:54:36.240 [10844:12656:0512/095436.238:ERROR:interface_endpoint_client.cc(696)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 12, 2023 09:54:36.240 [10844:12656:0512/095436.238:ERROR:interface_endpoint_client.cc(696)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 12, 2023 13:12:25.75 [10844:5784:0512/131225.075:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+5월 12, 2023 15:05:10.260 [10844:3300:0512/150510.260:ERROR:cert_verify_proc_builtin.cc(679)] CertVerifyProcBuiltin for bx01.optimix.cn failed:
+5월 12, 2023 15:05:10.261 ----- Certificate i=0 (CN=*.optimix.cn,O=China Search (Asia) Limited,L=Hong Kong Island,C=HK) -----
+5월 12, 2023 15:05:10.261 ERROR: Time is after notAfter
+5월 12, 2023 15:05:10.261 
+5월 12, 2023 15:05:10.261 
+5월 12, 2023 15:50:16.390 [10844:5784:0512/155016.390:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+5월 12, 2023 16:00:03.172 [10844:5784:0512/160003.171:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+5월 12, 2023 16:07:31.588 [10844:12656:0512/160731.588:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:31.708 [10844:12656:0512/160731.708:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:31.943 [10844:12656:0512/160731.943:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:32.61 [10844:12656:0512/160732.061:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:32.258 [10844:12656:0512/160732.258:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:32.417 [10844:12656:0512/160732.417:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:32.522 [10844:12656:0512/160732.522:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:35.233 [10844:12656:0512/160735.233:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:35.311 [10844:12656:0512/160735.310:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:35.316 [10844:12656:0512/160735.316:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+5월 12, 2023 16:07:35.465 [10844:12656:0512/160735.465:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 0.308 s for first_image_paint 0.262 s
+
+5월 12, 2023 17:16:39.164 NEW SESSION
+5월 12, 2023 17:16:39.165 [3920:5772:0512/171639.163:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+5월 12, 2023 18:07:45.513 [3920:11148:0512/180745.512:ERROR:cert_verify_proc_builtin.cc(679)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+5월 12, 2023 18:07:45.513 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+5월 12, 2023 18:07:45.513 ERROR: Time is after notAfter
+5월 12, 2023 18:07:45.513 
+5월 12, 2023 18:07:45.513 
+
+5월 12, 2023 18:11:37.63 NEW SESSION
+5월 12, 2023 18:11:37.63 [10504:10728:0512/181137.061:ERROR:backend_impl.cc(1040)] Critical error found -8
+5월 12, 2023 19:12:00.52 [10504:10508:0512/191200.052:ERROR:device_event_log_impl.cc(222)] [19:12:00.052] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 12, 2023 20:12:48.402 [10504:10508:0512/201248.401:ERROR:interface_endpoint_client.cc(696)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+5월 15, 2023 19:31:28.123 NEW SESSION
+5월 15, 2023 19:31:28.123 [11400:11404:0515/193128.122:ERROR:device_event_log_impl.cc(222)] [19:31:28.122] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 15, 2023 19:52:13.288 [11400:11404:0515/195213.288:ERROR:interface_endpoint_client.cc(696)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+5월 16, 2023 11:39:28.896 NEW SESSION
+5월 16, 2023 11:39:28.896 [12672:6656:0516/113928.895:ERROR:backend_impl.cc(1040)] Critical error found -8
+5월 16, 2023 18:52:06.602 [12672:4152:0516/185206.602:ERROR:interface_endpoint_client.cc(696)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 16, 2023 18:55:33.279 [12672:4152:0516/185533.279:ERROR:device_event_log_impl.cc(222)] [18:55:33.279] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 16, 2023 19:55:08.871 [12672:7100:0516/195508.871:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106

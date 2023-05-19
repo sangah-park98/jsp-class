@@ -1,0 +1,36 @@
+//	객체 선언 => function
+function Clazz(name) {
+	this.name = name; // 멤버 변수 초기화	
+	this.age = 20;
+	this.getAge = function () {	// 함수 선언
+		return this.age;
+	}
+}
+
+function objectFunction() {
+//	function을 사용해서 선언한 클래스 객체는 new를 사용해서 생성한다.
+	const obj = new Clazz('홍길동');
+	console.log(obj);
+//	객체의 멤버에 접근하려면 객체 이름에 '.'을 찍어서 접근한다.
+	console.log(obj.name);
+	console.log(obj.age);
+	console.log(obj.getAge);
+	
+}
+
+//	객체 선언 => class 사용
+class Clazz2 {
+	constructor(name){ // 생성자에서 멤버 변수를 초기화 한다.
+		this.name = name; // 멤버 변수 초기화	
+		this.age = 20;
+	}
+	getAge () {	// 함수 선언
+		return this.age;
+	}
+	
+}
+
+
+
+
+
