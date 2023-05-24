@@ -1,0 +1,5 @@
+function tableAdd() {
+	let form = document.forms[0];
+	
+	
+}

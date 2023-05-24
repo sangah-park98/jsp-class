@@ -1,0 +1,17 @@
+onload = function () {
+	
+	document.getElementsByTagName('button')[0].onclick = testDate1;
+	
+}
+
+function testDate1() {
+	let date = new Date();
+	console.log(date);
+	
+	let today = document.getElementById('today');
+	today.innerHTML = date;
+	today.innerHTML = date.toDateString();
+	today.innerHTML = date.toLocaleDateString();
+	today.innerHTML = date.toLocaleString();
+	today.innerHTML = date.toLocaleTimeString();
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery - 속성 선택자</title>
+
+<script type="text/javascript" src="./js/jquery-3.7.0.js"></script>
+<script defer="defer" type="text/javascript" src="./js/jQuery03.js"></script>
+
+
+</head>
+<body>
+
+<h2>속성 선택자</h2>
+
+<table>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+
+</body>
+</html>

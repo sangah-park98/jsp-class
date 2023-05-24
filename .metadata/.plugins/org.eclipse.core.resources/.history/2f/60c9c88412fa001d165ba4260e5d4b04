@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery - form</title>
+
+<script type="text/javascript" src="./js/jquery-3.7.0.js"></script>
+<script defer="defer" type="text/javascript" src="./js/jQuery04.js"></script>
+
+
+</head>
+<body>
+
+<form>
+	<input type="text"/>
+	<input type="text"/>
+	<input type="button" value="선택"/>
+	<input type="radio" value="수강 과정명"/>
+	<input type="checkbox" value="빅데이터 분석과 엘라스틱 서치를 활용한 자바 웹 개발자 양성"/>
+	<div id='a'>
+		빅데이터 분석과 엘라스틱 서치를 활용한 자바 웹 개발자 양성
+	</div>	
+	<select style="width: 200px">
+		<option></option>
+	</select>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+onload = function () {
+	
+	document.getElementsByTagName('button')[0].onclick = testDate1;
+	
+}
+
+function testDate1() {
+	let date = new Date();
+	console.log(date);
+}

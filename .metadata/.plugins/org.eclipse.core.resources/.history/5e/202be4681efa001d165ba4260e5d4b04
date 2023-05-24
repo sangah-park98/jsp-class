@@ -1,0 +1,8 @@
+$(function () {
+	alert('jQuery onload 이벤트5');
+});
+
+function imgSize() {
+	$('img').css('width:200px', 'height:200px');
+//	$('css 선택자')
+}

@@ -1,0 +1,4 @@
+onload = () => {
+	let a = document.querySelectorAll('a');
+	let img = document.querySelectorAll('img');
+}

@@ -1,0 +1,11 @@
+function a1() {
+	$('span').css('color', 'blue');		
+}
+
+function a2() {
+	$('#t1').css('color', 'blue');
+}
+
+function a3() {
+	$('.class').css('color', 'blue');
+}

@@ -1,0 +1,10 @@
+function tableAdd() {
+	let form = document.forms[0];
+	let values = [form.id.value, form.password.value, form.address.value, form.phoneNo];
+	
+	for(let i=0; i<values.length; i++) {
+		let value = values[i];
+		if(values == null || values.trim() == '' || values)
+	}	
+	
+}
