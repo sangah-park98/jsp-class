@@ -1,4 +1,0 @@
-function openWin() {
-	console.log('openWin()');
-	
-}

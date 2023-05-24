@@ -1,7 +1,0 @@
-function openWin() {
-//	console.log('openWin()');
-//	window.open(); // 새 창 띄우기
-	window.open(url, title, option); 
-	let url = './20_javascript_윈도우2.html';
-	let option = 'top=50px'
-}

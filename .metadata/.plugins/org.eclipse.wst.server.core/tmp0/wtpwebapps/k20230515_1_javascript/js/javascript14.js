@@ -23,7 +23,7 @@ const slime2 = {
 	name: '슬라임2'
 }
 
-const cuteSlime2 = {
+/*const cuteSlime2 = {
 	...slime2, // slime2 객체의 내용을 cuteSlime2 객체 내부에 확산시킨다.
 	attribute: 'cute'
 }
@@ -31,7 +31,7 @@ const cuteSlime2 = {
 const PurpleCuteSlime2 = {
 	...cuteSlime2, // cuteSlime2 객체의 내용을 PurpleCuteSlime2 객체 내부에 확산시킨다.
 	color: 'purple'
-}
+}*/
 
 console.log(slime2);
 console.log(cuteSlime2);

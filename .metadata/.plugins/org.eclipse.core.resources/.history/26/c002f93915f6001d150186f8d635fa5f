@@ -1,8 +1,0 @@
-function numberObject() {
-//	Number 객체 선언 방법
-	let num = new Number(5); // new를 사용해 Number 객체 선언
-	console.log('num: ' + num);	
-	console.log(typeof num); // object
-	
-	let num2 = 5; // 숫자 리터럴을 입력해서 Number 객체 선언
-}

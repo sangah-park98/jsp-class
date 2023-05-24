@@ -8,6 +8,7 @@ const PurpleCuteSlime = {
 //	객체에 rest를 사용할 때는 뽑아낸 값을 저장할 변수 이름이 객체를 구성하는 key와 같아야 한다.
 //	지정된 속성을 제외한 나머지 속성이 rest에 저장되므로 rest는 반드시 맨 마지막에 딱 1번만 써야 한다. 
 
+/*
 const {color, ...cuteSlime} = PurpleCuteSlime;
 console.log(color);
 console.log(cuteSlime);
@@ -15,6 +16,7 @@ console.log(cuteSlime);
 const {attribute, ...slime} = cuteSlime;
 console.log(attribute);
 console.log(slime);
+*/
 console.log('---------------------------------');
 
 const numbers = [0, 1, 2, 3, 4, 5, 6];

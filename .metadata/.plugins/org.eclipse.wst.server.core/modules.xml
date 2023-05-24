@@ -8,4 +8,5 @@
   <module moduleId="org.eclipse.jst.jee.server:practice" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:k20230508_1_css" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:k20230503_1_html" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:k20230524_1_jQuery" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>

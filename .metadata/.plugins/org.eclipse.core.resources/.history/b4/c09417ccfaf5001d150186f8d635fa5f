@@ -1,4 +1,0 @@
-function searchID() {
-	let doc = document.getElementById('test').value
-	
-}
