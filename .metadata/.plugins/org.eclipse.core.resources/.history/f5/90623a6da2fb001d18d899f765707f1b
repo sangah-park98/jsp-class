@@ -1,0 +1,19 @@
+body {
+	width: 500px;
+	margin: 10px auto; /* 정렬 가운데로 */
+}
+
+h2 {
+	margin: 5px;
+	padding: 10px 3px; /* 위아래 , 양옆 */
+}
+
+p {
+	margin: 5px;
+	padding: 0px 0.5px;
+}
+
+.pane {
+	
+	background-color: pink;
+}

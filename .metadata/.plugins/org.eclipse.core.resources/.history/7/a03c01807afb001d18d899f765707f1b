@@ -1,0 +1,7 @@
+$(() => {
+	
+	// $('div > p> b').css({'color':'red', 'fontsize': '30px'});
+	$('div').find('b').css({'color':'red', 'fontsize': '30px'});
+	
+	
+});

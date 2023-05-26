@@ -1,0 +1,47 @@
+//	animate() 함수는 여러 css 스타일을 이용해서 사용자 이펙트를 정의할 수 있다.
+//	$('선택자').animate(
+//		{스타일}		// 필수, 이펙트를 구성할 css 스타일 속성을 지정한다.
+//		[, 재생시간]	// 선택, 이펙트가 지속될 시간을 밀리초 단위로 지정한다.
+//		[, '속도함수']	// 선택, 이펙트의 시간당 속도를 지정한다.
+//		[, 콜백함수()]	// 선택, 이펙트 동작이 완료된 후 실행할 함수를 지정한다.
+//	);
+//	속도함수
+//	swing: 시작, 끝 부분에서는 천천히 움직이고 중간 부분은 빠르게 움직인다.
+//	linear: 시작, 중간, 끝 구분없이 일정한 속도로 움직인다.
+
+	$('h2').click(function () {
+		$('div > p').show();
+		$('p').each(function(index) {
+			$(this).animate(
+				{
+					'top' : 72 + index * 50  + 'px'
+				}
+				, 500
+				, 'linear'
+				, function () {
+					console.log('참 잘했어요:)');
+				}
+			);
+		});
+	});
+
+$(() => {
+
+//	$('선택자').이벤트(실행할 함수);	
+//	$('p').click(function () {});
+
+
+//	bind(): jQuery 이벤트에 실행할 함수를 연결한다.	
+//	$('선택자').bind('이벤트', 실행할 함수);
+//	$('p').bind('click', function () { });
+
+	$('p').bind('click', function () { 
+		// console.log('<p> 태그에 click 이벤트 실행됨');
+		// 클릭한 <p> 태그의 배경색을 변경한다.
+		$(this).css('backgroundColor', 'pink');
+		// 클릭한 <p> 태그를 제외한 나머지 형제들을 선택해서 배경색을 흰색으로 변경한다.
+		$(this).siblings('p').css('backgroundColor', 'white');
+		
+		// contains(): 인수로 지정된 문자열을 포함하면 true, 포함하지 않으면 false
+	});
+});

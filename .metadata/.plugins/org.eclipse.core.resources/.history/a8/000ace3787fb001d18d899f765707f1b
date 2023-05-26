@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery 메뉴</title>
+
+<script type="text/javascript" src="./js/jquery-3.7.0.js"></script>
+<script defer="defer" type="text/javascript" src="./js/jQuery10.js"></script>
+
+
+</head>
+<body>
+
+<h2>DOM 탐색 함수</h2>
+	
+	
+<div>
+	<p>
+		
+	</p>
+	<p>
+	
+	</p>
+</div>
+	
+	<input type="button" value="돌아가기" onclick="history.back()"/><br/>
+
+</body>
+</html>

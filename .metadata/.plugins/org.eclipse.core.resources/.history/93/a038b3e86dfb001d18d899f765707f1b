@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery - DOM탐색</title>
+
+<script type="text/javascript" src="./js/jquery-3.7.0.js"></script>
+<script defer="defer" type="text/javascript" src="./js/jQuery08.js"></script>
+<link rel="stylesheet" href="./css/jQuery07.css"/>
+
+
+</head>
+<body>
+
+<h2>DOM 탐색 함수</h2>
+
+<div>
+	<div>first()</div>
+	<div>eq()</div>
+	<div>slice</div>
+	<div>last</div>
+</div>
+
+
+</body>
+</html>
+

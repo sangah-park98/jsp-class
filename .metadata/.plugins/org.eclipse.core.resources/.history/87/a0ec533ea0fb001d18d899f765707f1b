@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery easings 플러그인</title>
+
+<script type="text/javascript" src="./js/jquery-3.7.0.js"></script>
+<script defer="defer" type="text/javascript" src="./js/jQuery13.js"></script>
+<link rel="stylesheet" href="./css/jQuery13.css"/>
+
+</head>
+<body>
+
+<button id="view" type="button">모두 보이기</button><br>
+
+</body>
+</html>

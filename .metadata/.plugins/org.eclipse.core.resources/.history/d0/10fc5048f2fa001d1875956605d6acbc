@@ -1,0 +1,32 @@
+$(() => {
+	$('.error').hide();
+	
+	$('#single').submit(function () {
+		let userID = $('#infoBox').val().trim();
+		if(userID == null || userID == '') {
+			$('#infoBox').val('');
+			$('#infoBox').focus();
+			$('.error').show();
+			
+		}
+	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+});

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery - 메뉴</title>
+
+<script type="text/javascript" src="./js/jquery-3.7.0.js"></script>
+<script defer="defer" type="text/javascript" src="./js/jQuery07.js"></script>
+
+
+</head>
+<body>
+
+<h2>DOM 탐색 함수</h2>
+
+<div id="menu1" class="menu">
+	<div>필터링 함수</div>
+	<div>first()</div>
+	<div>eq()</div>
+	<div>slice</div>
+	<div>last</div>
+</div>
+
+<div id="menu2" class="menu">
+
+	<div>필터링 함수2</div>
+	<div>find()</div>
+	<div>children()</div>
+	<div>parent()</div>
+	<div>parents()</div>
+	<div>next()</div>
+	<div>prev()</div>
+</div>
+
+<div id="menu3" class="menu">
+	<div>필터링 함수3</div>
+	<div>add()</div>
+	<div>is()</div>
+
+</div>
+
+</body>
+</html>
+

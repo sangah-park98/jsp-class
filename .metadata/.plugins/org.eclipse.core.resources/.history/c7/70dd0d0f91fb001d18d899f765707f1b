@@ -1,0 +1,8 @@
+$(() => {
+	$('h2').click(function () {
+		$('div > p').show();
+		$('p').each(function(index) {
+			
+		});
+	});
+});

@@ -1,0 +1,7 @@
+$(() => {
+	
+	$('div > p').first().click(() => $('div > b').first().toggle());
+	
+	
+	
+});

@@ -1,0 +1,9 @@
+body {
+	width: 500px;
+	margin: 10px auto; /* 정렬 가운데로 */
+}
+
+.pane {
+	
+	background-color: pink;
+}

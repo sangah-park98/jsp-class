@@ -1,0 +1,5 @@
+* { font-family: 'IM혜민'};
+
+img {
+	width: 200px;
+}

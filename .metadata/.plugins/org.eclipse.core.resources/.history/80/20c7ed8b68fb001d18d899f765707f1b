@@ -1,0 +1,17 @@
+a {
+	
+	text-decoration: none;
+	color: hotpink;
+}
+
+.menu {
+
+	width: 150px;
+	border: 1px solid black;
+	background-color: black;
+	transition: 0.5s;
+}
+
+.menu:hover {
+	background-color: white;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery - form3</title>
+
+<script type="text/javascript" src="./js/jquery-3.7.0.js"></script>
+<script defer="defer" type="text/javascript" src="./js/jQuery06.js"></script>
+
+
+</head>
+<body>
+
+<form action="ok.html">
+
+
+	<button type="submit">입력하기</button>
+</form>
+
+
+
+</body>
+</html>

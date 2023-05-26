@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery - DOM탐색</title>
+
+<script type="text/javascript" src="./js/jquery-3.7.0.js"></script>
+<script defer="defer" type="text/javascript" src="./js/jQuery09.js"></script>
+
+
+</head>
+<body>
+
+<h2>DOM 탐색 함수2</h2>
+
+<div>
+	<b>find('선택자'): 선택된 요소 중에서 선택자로 지정한 요소 탐색</b><br/>
+	<b>children('선택자'): 선택된 요소의 자식 요소 중에서 선택자로 지정한 요소 탐색</b><br/>
+	<b>parent(): 선택된 요소의 부모 요소 탐색</b><br/>
+	<b>last(): 마지막 요소 탐색</b><br/>
+</div>
+
+<div>
+	<p>first()</p>
+	<p>eq(1)</p>
+	<p>slice(1, 3)</p>
+	<p>last()</p>
+</div>
+
+<input type="button" value="돌아가기1" onclick="history.back()"/> <!-- 바로 전 페이지 '<-' -->
+
+</body>
+</html>
+

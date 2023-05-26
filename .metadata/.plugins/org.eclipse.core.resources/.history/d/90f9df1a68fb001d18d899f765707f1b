@@ -1,0 +1,10 @@
+a {
+	
+	text-decoration: none;
+	color: hotpink;
+}
+
+.menu {
+
+	width: 150px;	
+}

@@ -1,0 +1,13 @@
+$(() => {
+	
+	$('.delete').click(function() {
+
+		$(this).parent().slideUp('slow');
+	});
+	
+	$('#view').click(function () {
+		$('.pane').slideDown();
+		// $('pane').css('display', 'block');
+	});
+	
+});

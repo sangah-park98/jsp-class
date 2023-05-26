@@ -1,0 +1,12 @@
+$(() => {
+	
+	$('.run').click(function() {
+		$('#box').animate(
+			{
+				'left': '400px',
+				'opacity': 0.1,
+			}, 1000, 'linear'	
+		);
+	});
+	
+});

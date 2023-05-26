@@ -1,0 +1,7 @@
+$(() => {
+	
+	$('.delete').click(() => {
+
+		$(this).parent().slideUp('slow');
+	});
+});
