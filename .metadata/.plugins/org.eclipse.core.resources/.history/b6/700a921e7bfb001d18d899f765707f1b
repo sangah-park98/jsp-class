@@ -1,8 +1,0 @@
-$(() => {
-	
-	// $('div > p> b').css({'color':'red', 'fontsize': '30px'});
-	$('div').find('p').find('b').css({'color':'purple', 'fontsize': '30px'});
-	
-	
-	$('#chd').text('저팔계');
-});

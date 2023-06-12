@@ -1,6 +1,0 @@
-function tableAdd() {
-	let form = document.forms[0];
-	let values = [form.id.value, form.password.value, form.address.value, form.phoneNo];
-	
-	
-}

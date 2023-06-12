@@ -1,7 +1,0 @@
-$(() => {
-	
-	$('div b').css({'color':'red', 'fontsize': '30px'});
-	
-	
-	
-});
